@@ -5,5 +5,5 @@ WORKDIR /app
 COPY . .
 
 
-CMD [ "python ./example_multithread.py" ]
+CMD [ "python ./app/example_multithread.py" ]
 
