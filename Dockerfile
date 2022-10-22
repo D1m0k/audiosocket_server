@@ -4,4 +4,6 @@ WORKDIR /app
 
 COPY . .
 
+
 CMD [ "python ./exemple_multithread.py" ]
+
