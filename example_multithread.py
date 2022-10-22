@@ -6,7 +6,7 @@ from audiosocket import *
 
 
 # Create a globally accessible audiosocket instance
-audiosocket = Audiosocket(('0.0.0.0', 1111))
+audiosocket = Audiosocket(('0.0.0.0', 1121))
 
 
 # Upsample received (output) audio to CD quality, then downsample it back
